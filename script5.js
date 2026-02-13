@@ -57,7 +57,7 @@ function setDarkTheme(animate = true) {
 
 // ---------- orders -> BACKEND (MongoDB) ----------
 $(document).ready(function () {
-  const API_BASE = 'http://localhost:5000';
+  const API_BASE = 'https://final-k9uk.onrender.com';
 
   $('#orderForm').on('submit', async function (e) {
     e.preventDefault();
